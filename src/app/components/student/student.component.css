@@ -1,5 +1,7 @@
 .caja{
  background-color: beige;
  color: black;
- border: solid red 1px;   
+ border: solid red 1px;
+ border-radius: 5px; 
+ justify-content: center;  
 }
