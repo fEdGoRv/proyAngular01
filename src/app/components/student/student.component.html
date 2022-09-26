@@ -1,6 +1,14 @@
-<div class="d-flex flex-row bd-highlight mb-3 caja"> 
-    <div class="p-2 bd-highlight">Clase</div>
-    <div class="p-2 bd-highlight">Hora</div>
-    <div class="p-2 bd-highlight">Profesor</div>
-    <div class="p-2 bd-highlight">Asignatura</div>   
+<div class="container d-flex flex-wrap">
+    <ul *ngFor="let student of STUDENTS">
+        <div class="card" style="max-width: 18rem;">
+            <img src={{student.img}} class="card-img-top" style="max-height:200px ;" alt="...">
+            <div class="card-body" style="background-color: gray;">
+                <h5 class="card-title">Nombre: {{student.nombre}}</h5>
+                <h5 class="card-title">Apellido: {{student.apellido}}</h5>
+                <h5 class="card-title">Edad: {{student.edad}}</h5>
+                <h5 class="card-title">Email: {{student.email}}</h5>
+
+            </div>
+        </div>
+    </ul>
 </div>

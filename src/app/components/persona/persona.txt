@@ -1,0 +1,83 @@
+private nombre: string;
+    private apellido: string;
+    private edad: number;
+    private img: string;
+    private email: string;
+    private contraseña: string;
+
+    constructor(nombre: string, apellido: string, edad: number, img: string, email: string, contraseña: string) {
+        this.nombre = nombre,
+        this.apellido = apellido,
+        this.edad = edad,
+        this.img = img,
+        this.email = email,
+        this.contraseña = contraseña
+    }
+
+    setNombre(nombre: string) {
+        this.nombre = nombre;
+    }
+    getNombre() {
+        return this.nombre;
+    }
+    setApellido(apellido: string) {
+        this.apellido = apellido;
+    }
+    getApellido() {
+        return this.apellido;
+    }
+    setEdad(edad: number) {
+        this.edad = edad;
+    }
+    getEdad() {
+        return this.edad;
+    }
+    setImg(img: string) {
+        this.nombre = img;
+    }
+    getImg() {
+        return this.img;
+    }
+    setContraseña(contraseña: string) {
+        this.contraseña = contraseña;
+    }
+    getContraseña() {
+        return this.contraseña;
+    }
+    setEmail(email: string) {
+        this.email = email;
+    }
+    getEmail() {
+        return this.email;
+    }
+    public STUDENTS : Array<Persona> = [
+    {
+        nombre: 'Enrique',
+        apellido: 'Garcia',
+        edad: 28,
+        img: 'https://i.pinimg.com/474x/2e/ee/06/2eee0661f0f9f06a95a8fd35269f2b0e--kung-fu-panda-animation.jpg',
+        email: 'enrique****@gmail.com',
+        contraseña: 'asd147'
+    }, {
+        nombre: 'Pablo',
+        apellido: 'Armando',
+        edad: 32,
+        img: 'https://static.wikia.nocookie.net/kungfupanda/images/4/48/Tai_Lung_Kung_Fu_Panda_1023.jpg/revision/latest/smart/width/250/height/250?cb=20120530164720&path-prefix=es',
+        email: 'pablin@gmail.com',
+        contraseña: 'asd123'
+    }, {
+        nombre: 'Julio',
+        apellido: 'Blanco',
+        edad: 34,
+        img: 'https://i.pinimg.com/550x/56/f3/75/56f3757a72ded702f742e0ab56187db0.jpg',
+        email: '',
+        contraseña: 'asd789'
+    }, {
+        nombre: 'Omar',
+        apellido: 'Salvadot',
+        edad: 48,
+        img: 'https://image.jimcdn.com/app/cms/image/transf/dimension=210x1024:format=png/path/s39145781b4b2fa7a/image/i8e80b058a09cb1e3/version/1474202594/image.png',
+        email: 'Omarsito@gmail.com',
+        contraseña: 'asd456'
+    }
+];
