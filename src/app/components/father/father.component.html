@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+             <app-form 
+             (addUsuario)="agregarUsuario($event)">
+            </app-form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <app-table
+            [users]="usuarios"></app-table>
+        </div>
+    </div>
+</div>

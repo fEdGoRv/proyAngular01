@@ -4,5 +4,5 @@ export interface Persona{
  edad: number;
  img: string;
  email: string;
- contraseña: string;
+ contrasena: string;
 }
